@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Versiebeheer 2.T1 LO1E</title>
+        <link rel="stylesheet" href="style/index.css">
+    </head>
+    <body>
+
+        <header id="header">
+            <h1 id="page-title">LO2E-VBH4_T1-4J</h1>
+            <p id="naam">Naam van Student</p>
+            <p id="version">Versie: 1.0</p>
+        </header>
+
+        <main>
+            <article id="introductie">
+                <header>
+                    <div class="title">
+                        <h2>Introductie</h2>
+                        <p>Punten: 30</p>
+                    </div>
+                    <div class="meta">
+                        <img src="images/standby.png">
+                    </div>
+                </header>
+                <section>
+                    <h3>Doelstelling</h3>
+                    <ul>
+                        <li>
+                            Behendig zijn in:
+                            <em>commits</em>,
+                            <em>branching</em>,
+                            <em>pushing</em>,
+                            <em>pulling</em>,
+                            <em>merging</em>,
+                            en <em>rebasing</em>
+                        </li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h3>Startinstructies</h3>
+                    <ul>
+                        <li>Fork deze repository naar jouw eigen github account</li>
+                        <li>Clone deze fork naar jouw computer</li>
+                        <li>Open je favoriete git applicatie en editor.</li>
+                        <li><strong class="important">Volg de instructies!!!!!</strong></li>
+                    </ul>
+                </section>
+            </article>
+
+            <article id="student-naam">
+                <header>
+                    <div class="title">
+                        <h2>1. Naam aanpassen</h2>
+                        <p>Punten: 1</p>
+                    </div>
+                    <div class="meta">
+                        <img src="images/who-am-i.jpg">
+                    </div>
+                </header>
+
+                <section>
+                    <h3>Opdracht</h3>
+                    <p>
+                        Voor je begint met het aanpassen van de code,
+                        zorg dat je in de <strong class="badge branch">master/main</strong> branch zit.
+                    </p>
+
+                    <ul>
+                        <li>Vervang bovenaan de pagina &quot;Naam van student&quot; door jouw eigen naam <em>(id=naam)</em></li>
+                        <li>Commit deze wijziging</li>
+                    </ul>
+                </section>
+            </article>
+
+            <article id="commandos">
+                <header>
+                    <div class="title">
+                        <h2>2. Commando's</h2>
+                        <p>Punten: 8</p>
+                    </div>
+                    <div class="meta">
+                        <img src="images/commandos.png">
+                    </div>
+                </header>
+
+                <section>
+                    <h3>Opdracht</h3>
+
+                    <ul>
+                        <li>Maak een nieuwe branch: <strong class="badge branch">commandos</strong></li>
+                        <li>Controleer dat je in deze branch zit</li>
+                        <li>Voer hieronder bij elk doel het commando in.</li>
+                        <li>Maak een commit voor ieder gegeven antwoord.</li>
+                    </ul>
+
+                    <ol>
+                        <li>
+                            Nieuwe repository starten.<br>
+                            <code id="commando-1">...</code>
+                        </li>
+                        <li>
+                            Alle gewijzigde bestanden in de huidige map klaarzetten (stagen) voor een commit.<br>
+                            <code id="commando-2">...</code>
+                        </li>
+                        <li>
+                            Klaargezette (staged) wijzigingen committen met het bericht: "Contactformulier is klaar".<br>
+                            <code id="commando-3">...</code>
+                        </li>
+                        <li>
+                            Een nieuwe branch maken genaamd: "nieuwe-branch".<br>
+                            <code id="commando-4">...</code>
+                        </li>
+                        <li>
+                            Wisselen naar de branch: "nieuwe-branch".<br>
+                            <code id="commando-5">...</code>
+                        </li>
+                        <li>
+                            Mergen van de branch: "nieuwe-branch".<br>
+                            <code id="commando-6">...</code>
+                        </li>
+                        <li>
+                            Wijzigingen van de remote "origin" ophalen.<br>
+                            <code id="commando-7">...</code>
+                        </li>
+                        <li>
+                            Wijzigingen naar de remote "origin" sturen.<br>
+                            <code id="commando-8">...</code>
+                        </li>
+                    </ol>
+            </article>
+
+            <article id="afbeeldingen">
+                <header>
+                    <div class="title">
+                        <h2>3. Afbeeldingen toevoegen</h2>
+                        <p>Punten: 4</p>
+                    </div>
+                    <div class="meta">
+                        <img id="afbeelding" src="images/pictures.png">
+                    </div>
+                </header>
+
+                <section>
+                    <h3>Opdracht</h3>
+                    <ul>
+                        <li>Maak een nieuwe branch: <strong class="badge branch">afbeeldingen</strong></li>
+                        <li>Controleer dat je in deze branch zit</li>
+                        <li>
+                            Zoek een passende afbeelding voor dit hoofdstuk <em>(id=afbeeldingen)</em>,
+                            voeg deze afbeelding toe in de map <em>images</em>.
+                        </li>
+                        <li>
+                            Pas de src aan van de afbeelding <em>(id=afbeelding)</em> van dit hoofdstuk aan,
+                            zodat de nieuw toegevoegde afbeelding zichtbaar is.
+                        </li>
+                        <li><em class="badge commit">Commit</em> deze wijziging</li>
+                        <li>
+                            <em class="badge merge">Merge</em> de aanpassingen van 
+                            <strong class="badge branch">afbeeldingen</strong> naar
+                            <strong class="badge branch">master/main</strong>.
+                        <li>Push de <strong class="badge branch">master/main</strong> branch naar github</li>
+                    </ul>
+                </section>
+            </article>
+
+            <article id="conflict1">
+                <header>
+                    <div class="title">
+                        <h2>4. Een conflict oplossen</h2>
+                        <p>Punten: 8</p>
+                        <p>
+                            Winnaar:
+                            <span id="winnaar">Niemand</span>
+                        </p>
+                    </div>
+                    <div class="meta">
+                        <img id="winnaar-image" src="images/ant_man-wasp.png">
+                    </div>
+                </header>
+
+                <section>
+                    <h3>Ant-Man</h3>
+                    <ul>
+                        <li>Begin een nieuwe branch: <strong class="badge branch">ant_man</strong>.</li>
+                        <li>Pas de hierboven aangegeven winnaar (id=winnaar) aan naar: <em>Ant-Man</em>.</li>
+                        <li>Pas de src van de afbeelding (id=winnaar-image) aan naar: <em>images/ant_man.png</em>.</li>
+                        <li>Commit deze wijziging.</li>
+                        <li>Push de <strong class="badge branch">ant_man</strong> branch naar github.</li>
+                    </ul>
+
+                    <h3>Wasp</h3>
+                    <ul>
+                        <li>Begin een nieuwe branch: <strong class="badge branch">wasp</strong>.</li>
+                        <li>Pas de hierboven aangegeven winnaar (id=winnaar) aan naar: <em>Wasp</em>.</li>
+                        <li>Pas de src van de afbeelding (id=winnaar-image) aan naar: <em>images/wasp.png</em>.</li>
+                        <li>Commit deze wijziging.</li>
+                        <li>Push de <strong class="badge branch">wasp</strong> branch naar github.</li>
+                    </ul>
+
+                    <h3>Fight!</h3>
+                    <ul>
+                        <li>Ga terug naar de <strong class="badge branch">master/main</strong> branch.</li>
+                        <li>Refresh de pagina en check of <em>Niemand</em> de winnaar is.</li>
+                        <li>
+                            <em class="badge merge">Merge</em> de aanpassingen van 
+                            <strong class="badge branch">wasp</strong>.
+                        </li>
+                        <li>Controleer of <em>Wasp</em> de winnaar is (refresh de pagina).</li>
+                        <li>
+                            <em class="badge merge">Merge</em> de aanpassingen van 
+                            <strong class="badge branch">ant_man</strong>.
+                        </li>
+                        <li>
+                            <strong>Conflict!</strong>
+                            <p>Je hebt nu een conflict in de header van dit article.</p>
+                        </li>
+                        <li>Zorg dat <em>Ant-Man</em> de winnaar is.</li>
+                        <li>Commit de merge</li>
+                        <li>Push de <strong class="badge branch">master/main</strong> branch naar github</li>
+                    </ul>
+                </section>
+            </article>
+
+            <article id="conflict2">
+                <header>
+                    <div class="title">
+                        <h2>5. Een conflict oplossen</h2>
+                        <p>Punten: 8</p>
+                        <p>Soms is er bij een conflict geen keuze, maar moet je handmatig de wijzigingen samen voegen.</p>
+                        <p>
+                            Donaties:
+                            <span id="donaties">FTT 0,00</span>
+                        </p>
+                    </div>
+                    <div class="meta">
+                        <img src="images/ftx.webp">
+                    </div>
+                </header>
+
+                <section>
+                    <h3>Rich Boy</h3>
+                    <ul>
+                        <li>Begin een nieuwe branch: <strong class="badge branch">rich_boy</strong>.</li>
+                        <li>
+                            De rapper Rich Boy heeft net <strong>187</strong> FTX FTT coins naar onze Wallet overgemaakt. <br>
+                            Pas het hierboven aangegeven donatiebedrag (id=donaties) aan.
+                        </li>
+                        <li>Commit deze wijziging.</li>
+                        <li>Push de <strong class="badge branch">rich_boy</strong> branch naar github</li>
+                    </ul>
+
+                    <h3>Mrutte</h3>
+                    <ul>
+                        <li>Begin een nieuwe branch: <strong class="badge branch">mrutte</strong> vanuit <strong class="badge branch">master/main</strong></li>
+                        <li>
+                            Mrutte is een beetje skeer, hij heeft FTT 1000 belooft, <br>
+                            maar geeft ons slechts <strong>FTT 1</strong>.<br>
+                            Pas het hierboven aangegeven donatiebedrag (id=donaties) aan.</li>
+                        <li>Commit deze wijziging.</li>
+                        <li>Push de <strong class="badge branch">mrutte</strong> branch naar github</li>
+                    </ul>
+
+                    <h3>Conflict!</h3>
+                    <ul>
+                        <li>
+                            <em class="badge merge">Merge</em> de aanpassingen van 
+                            <strong class="badge branch">mrutte</strong> naar
+                            <strong class="badge branch">master/main</strong>.
+                        </li>
+                        <li>Controleer of het donatie bedrag klopt (refresh de pagina).</li>
+                        <li>
+                            <em class="badge merge">Merge</em> de aanpassingen van 
+                            <strong class="badge branch">rich_boy</strong> naar
+                            <strong class="badge branch">master/main</strong>.
+                        </li>
+                        <li>
+                            <strong>Conflict!</strong>
+                        </li>
+                        <li>Zorg dat de donaties bij elkaar worden opgeteld.</li>
+                        <li>Controleer of het donatiebedrag correct is (refresh de pagina).</li>
+                        <li>Commit de merge</li>
+                        <li>Push de <strong class="badge branch">master/main</strong> branch naar github</li>
+                    </ul>
+                </section>
+            </article>
+
+            <article id="release">
+                <p>Punten: 1</p>
+                <header>
+                    <div class="title">
+                        <h2>6. Versie update</h2>
+                        <p>Versiebeheer eindigt natuurlijk altijd met een nieuwe versie.</p>
+                    </div>
+                    <div class="meta">
+                        <img src="images/release.png">
+                    </div>
+                </header>
+
+                <section>
+                    <h3>Opdracht</h3>
+                    <p>
+                        Zorg dat je in de <strong class="badge branch">master/main</strong> branch zit.
+                    </p>
+                    <ul>
+                        <li>Verhoog de versie (id=version) met 0.1</li>
+                        <li>Commit en push de wijziging</li>
+                        <li>Lever de URL van jouw github repository in.</li>
+                    </ul>
+                </section>  
+
+            </article>
+        </main>
+
+        <footer>
+
+        </footer>
+
+    </body>
+</html>
